@@ -1,9 +1,11 @@
 asgiref==3.8.1
+click==8.1.8
+colorama==0.4.6
 Django==4.2.20
 django-cors-headers==4.7.0
 djangorestframework==3.15.2
 gunicorn==23.0.0
-uvicorn==0.15.0
+h11==0.14.0
 packaging==24.2
 pillow==11.1.0
 psycopg2==2.9.10
@@ -11,3 +13,5 @@ python-decouple==3.8
 sqlparse==0.5.3
 typing_extensions==4.12.2
 tzdata==2025.2
+uvicorn==0.34.0
+whitenoise==6.9.0
